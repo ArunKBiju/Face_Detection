@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Missing Person Finder</title>
+    <script src="opencv.js"></script>
+</head>
+<body>
+    <h1>Missing Person Finder</h1>
+    <input type="file" id="videoFile" accept="video/*">
+    <button onclick="processVideo()">Process Video</button>
+    <div id="video-container">
+        <video id="video" width="640" height="480"></video>
+    </div>
+    <canvas id="canvas" width="640" height="480"></canvas>
+    <script src="script.js"></script>
+</body>
+</html>
